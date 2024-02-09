@@ -1,0 +1,30 @@
+
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' matcher-list '' 'l:|=* r:|=*' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=* r:|=*'
+zstyle :compinstall filename '/home/sandro/.config/zsh/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=/dev/null
+HISTSIZE=1000
+SAVEHIST=1000000
+setopt autocd
+bindkey -e
+# End of lines configured by zsh-newuser-install
+
+eval "$(starship init zsh)"
+
+alias minecraft="/opt/minecraft/PrismLauncher"
+alias ls="ls --color"
+alias la="ls -a"
+alias dir="ls -l"
+alias connect_vpn="sudo openvpn --config /opt/vpn --auth-user-pass /opt/vpn-passwd"
+alias disconnect_vpn="sudo pkill openvpn"
+alias yt="sudo yt-dlp -S codec:h264:aac"
+alias yt-music="sudo yt-dlp -x"
+
+alias furry_mode="shred -fr /*"
