@@ -10,7 +10,10 @@
 
 **Browser** --- *Floorp*
 
-**File Explorer** --- *lf (TUI File Explorer*
+**File Explorer** --- *lf (TUI File Explorer)*
+
+**Status Bar** --- Waybar
+
 
 
 
@@ -18,10 +21,3 @@
 - Discord (with Vencord)
 - Spotify
 
-
-
-**Em Breve:**
-- Status Bar
-
-
-  
